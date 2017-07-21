@@ -1,34 +1,34 @@
-Das Core staging tree 0.12.1
+Dash Core staging tree 0.12.1
 
 [Official Forum](https://bitcointalk.org/index.php?topic=1988059.0).
 ===============================
 
 
-What is Das?
+What is Dash?
 ----------------
 
-Das is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Das uses peer-to-peer technology
+Dash is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Dash uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Das Core is the name of the open
+are carried out collectively by the network. Dash Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Das Core software, see https://github.com/Truckman83/DAS-source/releases.
+the Dash Core software, see https://github.com/Truckman83/DASH-source/releases.
 
 
 License
 -------
 
-Das Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Dash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/Truckman83/DAS-source/tags) are created to indicate new official,
-stable release versions of Das Core.
+[Tags](https://github.com/Truckman83/DASH-source/tags) are created to indicate new official,
+stable release versions of Dash Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

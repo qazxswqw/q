@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Dash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/dash-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -65,7 +65,7 @@ void OptionsModel::Init(bool resetSettings)
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::DAS);
+        settings.setValue("nDisplayUnit", BitcoinUnits::DASH);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -121,16 +121,16 @@ void OptionsModel::Init(bool resetSettings)
         addOverriddenOption("-privatesendrounds");
     nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
 
-    if (!settings.contains("nAnonymizeDasAmount")) {
+    if (!settings.contains("nAnonymizeDashAmount")) {
         // for migration from old settings
         if (!settings.contains("nAnonymizeDarkcoinAmount"))
-            settings.setValue("nAnonymizeDasAmount", 1000);
+            settings.setValue("nAnonymizeDashAmount", 1000);
         else
-            settings.setValue("nAnonymizeDasAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
+            settings.setValue("nAnonymizeDashAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
     }
-    if (!SoftSetArg("-anonymizedasamount", settings.value("nAnonymizeDasAmount").toString().toStdString()))
-        addOverriddenOption("-anonymizedasamount");
-    nAnonymizeDasAmount = settings.value("nAnonymizeDasAmount").toInt();
+    if (!SoftSetArg("-anonymizedashamount", settings.value("nAnonymizeDashAmount").toString().toStdString()))
+        addOverriddenOption("-anonymizedashamount");
+    nAnonymizeDashAmount = settings.value("nAnonymizeDashAmount").toInt();
 
     if (!settings.contains("fPrivateSendMultiSession"))
         settings.setValue("fPrivateSendMultiSession", fPrivateSendMultiSession);
@@ -185,7 +185,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in das.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in dash.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -253,8 +253,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fShowAdvancedPSUI;
         case PrivateSendRounds:
             return settings.value("nPrivateSendRounds");
-        case AnonymizeDasAmount:
-            return settings.value("nAnonymizeDasAmount");
+        case AnonymizeDashAmount:
+            return settings.value("nAnonymizeDashAmount");
         case ShowMasternodesTab:
             return settings.value("fShowMasternodesTab");
         case PrivateSendMultiSession:
@@ -394,12 +394,12 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 Q_EMIT privateSendRoundsChanged();
             }
             break;
-        case AnonymizeDasAmount:
-            if (settings.value("nAnonymizeDasAmount") != value)
+        case AnonymizeDashAmount:
+            if (settings.value("nAnonymizeDashAmount") != value)
             {
-                nAnonymizeDasAmount = value.toInt();
-                settings.setValue("nAnonymizeDasAmount", nAnonymizeDasAmount);
-                Q_EMIT anonymizeDasAmountChanged();
+                nAnonymizeDashAmount = value.toInt();
+                settings.setValue("nAnonymizeDashAmount", nAnonymizeDashAmount);
+                Q_EMIT anonymizeDashAmountChanged();
             }
             break;
         case ShowMasternodesTab:

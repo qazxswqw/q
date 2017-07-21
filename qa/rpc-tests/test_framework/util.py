@@ -1,5 +1,5 @@
 # Copyright (c) 2014-2015 The Bitcoin Core developers
-# Copyright (c) 2014-2015 The Das Core developers
+# Copyright (c) 2014-2015 The Dash Core developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -102,7 +102,7 @@ def initialize_datadir(dirname, n):
     datadir = os.path.join(dirname, "node"+str(n))
     if not os.path.isdir(datadir):
         os.makedirs(datadir)
-    with open(os.path.join(datadir, "das.conf"), 'w') as f:
+    with open(os.path.join(datadir, "dash.conf"), 'w') as f:
         f.write("regtest=1\n")
         f.write("rpcuser=rt\n")
         f.write("rpcpassword=rt\n")
@@ -115,7 +115,7 @@ def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    dasd and das-cli must be in search path.
+    dashd and dash-cli must be in search path.
     """
 
     if (not os.path.isdir(os.path.join("cache","node0"))
@@ -129,19 +129,19 @@ def initialize_chain(test_dir):
                 shutil.rmtree(os.path.join("cache","node"+str(i)))
 
         devnull = open(os.devnull, "w")
-        # Create cache directories, run dasds:
+        # Create cache directories, run dashds:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("DASD", "dasd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("DASHD", "dashd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: dasd started, calling das-cli -rpcwait getblockcount"
-            subprocess.check_call([ os.getenv("DASCLI", "das-cli"), "-datadir="+datadir,
+                print "initialize_chain: dashd started, calling dash-cli -rpcwait getblockcount"
+            subprocess.check_call([ os.getenv("DASHCLI", "dash-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: dassh-cli -rpcwait getblockcount completed"
+                print "initialize_chain: dashsh-cli -rpcwait getblockcount completed"
         devnull.close()
 
         rpcs = []
@@ -181,7 +181,7 @@ def initialize_chain(test_dir):
         from_dir = os.path.join("cache", "node"+str(i))
         to_dir = os.path.join(test_dir,  "node"+str(i))
         shutil.copytree(from_dir, to_dir)
-        initialize_datadir(test_dir, i) # Overwrite port/rpcport in das.conf
+        initialize_datadir(test_dir, i) # Overwrite port/rpcport in dash.conf
 
 def initialize_chain_clean(test_dir, num_nodes):
     """
@@ -214,23 +214,23 @@ def _rpchost_to_args(rpchost):
 
 def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=None):
     """
-    Start a dasd and return RPC connection to it
+    Start a dashd and return RPC connection to it
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("DASD", "dasd")
+        binary = os.getenv("DASHD", "dashd")
     # RPC tests still depend on free transactions
     args = [ binary, "-datadir="+datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-blockprioritysize=50000" ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     devnull = open(os.devnull, "w")
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: dasd started, calling das-cli -rpcwait getblockcount"
-    subprocess.check_call([ os.getenv("DASCLI", "das-cli"), "-datadir="+datadir] +
+        print "start_node: dashd started, calling dash-cli -rpcwait getblockcount"
+    subprocess.check_call([ os.getenv("DASHCLI", "dash-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: calling das-cli -rpcwait getblockcount returned"
+        print "start_node: calling dash-cli -rpcwait getblockcount returned"
     devnull.close()
     url = "http://rt:rt@%s:%d" % (rpchost or '127.0.0.1', rpc_port(i))
 
@@ -243,7 +243,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
 
 def start_nodes(num_nodes, dirname, extra_args=None, rpchost=None, binary=None):
     """
-    Start multiple dasds, return RPC connections to them
+    Start multiple dashds, return RPC connections to them
     """
     if extra_args is None: extra_args = [ None for i in range(num_nodes) ]
     if binary is None: binary = [ None for i in range(num_nodes) ]

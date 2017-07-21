@@ -1,6 +1,6 @@
-Das Core version 0.12.1 is now available from:
+Dash Core version 0.12.1 is now available from:
 
-  <https://www.das.org/downloads/>
+  <https://www.dash.org/downloads/>
 
 This is a new minor version release, including the BIP9, BIP68 and BIP112
 softfork, various bugfixes and updated translations.
@@ -10,7 +10,7 @@ softfork, various bugfixes and updated translations.
 Older releases
 --------------
 
-Das was previously known as Darkcoin.
+Dash was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -184,7 +184,7 @@ Thanks to everyone who directly contributed to this release:
 - Alex Morcos
 - BtcDrak
 - Jonas Schnelli
-- Luke Dasjr
+- Luke Dashjr
 - MarcoFalke
 - Mark Friedenbach
 - NicolasDorier
@@ -200,16 +200,16 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-Das Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
-to Das.
+Dash Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
+to Dash.
 
-Das Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Dash Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
 These release are considered obsolete. Old changelogs can be found here:
 
-- [v0.12.0](release-notes/das/release-notes-0.12.0.md) released ???/??/2015
-- [v0.11.2](release-notes/das/release-notes-0.11.2.md) released Mar/25/2015
-- [v0.11.1](release-notes/das/release-notes-0.11.1.md) released Feb/10/2015
-- [v0.11.0](release-notes/das/release-notes-0.11.0.md) released Jan/15/2015
-- [v0.10.x](release-notes/das/release-notes-0.10.0.md) released Sep/25/2014
-- [v0.9.x](release-notes/das/release-notes-0.9.0.md) released Mar/13/2014
+- [v0.12.0](release-notes/dash/release-notes-0.12.0.md) released ???/??/2015
+- [v0.11.2](release-notes/dash/release-notes-0.11.2.md) released Mar/25/2015
+- [v0.11.1](release-notes/dash/release-notes-0.11.1.md) released Feb/10/2015
+- [v0.11.0](release-notes/dash/release-notes-0.11.0.md) released Jan/15/2015
+- [v0.10.x](release-notes/dash/release-notes-0.10.0.md) released Sep/25/2014
+- [v0.9.x](release-notes/dash/release-notes-0.9.0.md) released Mar/13/2014

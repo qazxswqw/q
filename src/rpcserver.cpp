@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Dash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -243,11 +243,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Das server.");
+            "\nStop Dash server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Das server stopping";
+    return "Dash server stopping";
 }
 
 /**
@@ -335,17 +335,17 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Das features */
-    { "das",               "masternode",             &masternode,             true  },
-    { "das",               "masternodelist",         &masternodelist,         true  },
-    { "das",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "das",               "mngovernance",           &mngovernance,           true  },
-    { "das",               "voteraw",                &voteraw,                true  },
-    { "das",               "mnsync",                 &mnsync,                 true  },
-    { "das",               "spork",                  &spork,                  true  },
-    { "das",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* Dash features */
+    { "dash",               "masternode",             &masternode,             true  },
+    { "dash",               "masternodelist",         &masternodelist,         true  },
+    { "dash",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "dash",               "mngovernance",           &mngovernance,           true  },
+    { "dash",               "voteraw",                &voteraw,                true  },
+    { "dash",               "mnsync",                 &mnsync,                 true  },
+    { "dash",               "spork",                  &spork,                  true  },
+    { "dash",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "das",               "privatesend",            &privatesend,            false },
+    { "dash",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -567,7 +567,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> das-cli " + methodname + " " + args + "\n";
+    return "> dash-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "DASD" not in os.environ:
-    os.environ["DASD"] = buildDir + '/src/dasd' + EXEEXT
-if "DASCLI" not in os.environ:
-    os.environ["DASCLI"] = buildDir + '/src/das-cli' + EXEEXT
+if "DASHD" not in os.environ:
+    os.environ["DASHD"] = buildDir + '/src/dashd' + EXEEXT
+if "DASHCLI" not in os.environ:
+    os.environ["DASHCLI"] = buildDir + '/src/dash-cli' + EXEEXT
 
 #Disable Windows tests by default
 if EXEEXT == ".exe" and "-win" not in opts:
@@ -98,23 +98,23 @@ testScripts = [
     'nodehandling.py',
     'reindex.py',
     'decodescript.py',
-    'p2p-fullblocktest.py', # TODO: works, needs das_hash
+    'p2p-fullblocktest.py', # TODO: works, needs dash_hash
     'blockchain.py',
     'disablewallet.py',
-    'sendheaders.py', # TODO: works, needs das_hash
+    'sendheaders.py', # TODO: works, needs dash_hash
     'keypool.py',
     'prioritise_transaction.py',
-    'invalidblockrequest.py', # TODO: works, needs das_hash
-    'invalidtxrequest.py', # TODO: works, needs das_hash
+    'invalidblockrequest.py', # TODO: works, needs dash_hash
+    'invalidtxrequest.py', # TODO: works, needs dash_hash
     'abandonconflict.py',
     'p2p-versionbits-warning.py',
 ]
 testScriptsExt = [
     'bip9-softforks.py',
     'bip65-cltv.py',
-    'bip65-cltv-p2p.py', # TODO: works, needs das_hash
+    'bip65-cltv-p2p.py', # TODO: works, needs dash_hash
     'bip68-sequence.py',
-    'bipdersig-p2p.py', # TODO: works, needs das_hash
+    'bipdersig-p2p.py', # TODO: works, needs dash_hash
     'bipdersig.py',
     'getblocktemplate_longpoll.py', # FIXME: "socket.error: [Errno 54] Connection reset by peer" on my Mac, same as  https://github.com/bitcoin/bitcoin/issues/6651
     'getblocktemplate_proposals.py',
@@ -126,10 +126,10 @@ testScriptsExt = [
 #    'rpcbind_test.py', #temporary, bug in libevent, see #6655
     'smartfees.py',
     'maxblocksinflight.py',
-    'p2p-acceptblock.py', # TODO: works, needs das_hash
+    'p2p-acceptblock.py', # TODO: works, needs dash_hash
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Das
+    # 'replace-by-fee.py', # RBF is disabled in Dash
 ]
 
 #Enable ZMQ tests

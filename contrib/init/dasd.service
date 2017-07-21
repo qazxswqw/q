@@ -1,15 +1,15 @@
 [Unit]
-Description=Das's distributed currency daemon
+Description=Dash's distributed currency daemon
 After=network.target
 
 [Service]
-User=das
-Group=das
+User=dash
+Group=dash
 
 Type=forking
-PIDFile=/var/lib/dasd/dasd.pid
-ExecStart=/usr/bin/dasd -daemon -pid=/var/lib/dasd/dasd.pid \
--conf=/etc/das/das.conf -datadir=/var/lib/dasd -disablewallet
+PIDFile=/var/lib/dashd/dashd.pid
+ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
+-conf=/etc/dash/dash.conf -datadir=/var/lib/dashd -disablewallet
 
 Restart=always
 PrivateTmp=true

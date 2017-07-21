@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/dash-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -87,10 +87,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("DAS-light"), QVariant("light"));
-    ui->theme->addItem(QString("DAS-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("DAS-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("DAS-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("DASH-light"), QVariant("light"));
+    ui->theme->addItem(QString("DASH-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("DASH-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("DASH-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");
@@ -200,7 +200,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->showAdvancedPSUI, OptionsModel::ShowAdvancedPSUI);
     mapper->addMapping(ui->coinControlFeatures, OptionsModel::CoinControlFeatures);
     mapper->addMapping(ui->privateSendRounds, OptionsModel::PrivateSendRounds);
-    mapper->addMapping(ui->anonymizeDas, OptionsModel::AnonymizeDasAmount);
+    mapper->addMapping(ui->anonymizeDash, OptionsModel::AnonymizeDashAmount);
     mapper->addMapping(ui->privateSendMultiSession, OptionsModel::PrivateSendMultiSession);
 
     /* Network */

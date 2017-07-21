@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Escolha o endereço para onde enviar as moedas</translation>
+        <translation>Escolha o endereço para onde enviar as moedash</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Escolha o endereço onde deseja receber as moedas</translation>
+        <translation>Escolha o endereço onde deseja receber as moedash</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Endereços para recepção</translation>
     </message>
     <message>
-        <source>These are your Das addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços Das para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os endereços Dash para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedash.</translation>
     </message>
     <message>
-        <source>These are your Das addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Das para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
+        <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Dash para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirme cifra da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAS&lt;/b&gt;!</source>
-        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODAS AS SUAS MOEDAS DAS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
+        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODASH AS SUAS MOEDASH DASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,12 +188,12 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Das will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Das irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas dass contra roubos feitos por malware presente no seu computador.</translation>
+        <source>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Dash irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas dashs contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: Quaisquer copias de segurança feitas anteriormente à sua carteira, devem ser substituídas pelo novo ficheiro cifrado. Por razões de segurança, as copias de segurança anteriores não cifradas ficarão obsoletas assim que comece a usar a nova carteira cifrada,</translation>
+        <translation>IMPORTANTE: Quaisquer copias de segurança feitas anteriormente à sua carteira, devem ser substituídash pelo novo ficheiro cifrado. Por razões de segurança, as copias de segurança anteriores não cifradash ficarão obsoletas assim que comece a usar a nova carteira cifrada,</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>As palavras-passe fornecidas não coincidem.</translation>
+        <translation>As palavras-passe fornecidash não coincidem.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Das address</source>
-        <translation>Enviar moedas para um endereço Das</translation>
+        <source>Send coins to a Dash address</source>
+        <translation>Enviar moedash para um endereço Dash</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e das: URIs)</translation>
+        <source>Request payments (generates QR codes and dash: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e dash: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About Das Core</source>
-        <translation>&amp;Acerca do Das Core</translation>
+        <source>&amp;About Dash Core</source>
+        <translation>&amp;Acerca do Dash Core</translation>
     </message>
     <message>
-        <source>Show information about Das Core</source>
-        <translation>Mostra informação acerca do Das Core</translation>
+        <source>Show information about Dash Core</source>
+        <translation>Mostra informação acerca do Dash Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opções...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Das</source>
-        <translation>Modificar opções de configuração do Das</translation>
+        <source>Modify configuration options for Dash</source>
+        <translation>Modificar opções de configuração do Dash</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -320,7 +320,7 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Cifra as chaves privadas que pertencem à sua carteira</translation>
+        <translation>Cifra as chaves privadash que pertencem à sua carteira</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>Sign messages with your Das addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Das para provar que são seus</translation>
+        <source>Sign messages with your Dash addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Dash para provar que são seus</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Das addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço Das específico</translation>
+        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
+        <translation>Verifica mensagens para garantir que foram assinadash com um endereço Dash específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,24 +443,24 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
-        <translation>Abre um das: URI ou solicitação de pagamento</translation>
+        <source>Open a dash: URI or payment request</source>
+        <translation>Abre um dash: URI ou solicitação de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Das Core client</source>
-        <translation>Cliente Das Core</translation>
+        <source>Dash Core client</source>
+        <translation>Cliente Dash Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Das Core help message to get a list with possible Das command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Das Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Dash Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,8 +483,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Das network</source>
-        <translation><numerusform>%n ligação activa à rede Das</numerusform><numerusform>%n ligações activas à rede Das</numerusform></translation>
+        <source>%n active connection(s) to Dash network</source>
+        <translation><numerusform>%n ligação activa à rede Dash</numerusform><numerusform>%n ligações activas à rede Dash</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -622,7 +622,7 @@ Endereço: %4
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Selecção de Moedas</translation>
+        <translation>Selecção de Moedash</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -666,7 +666,7 @@ Endereço: %4
     </message>
     <message>
         <source>DS Rounds</source>
-        <translation>Rondas DS</translation>
+        <translation>Rondash DS</translation>
     </message>
     <message>
         <source>Date</source>
@@ -738,7 +738,7 @@ Endereço: %4
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Entrada não anonimizada seleccionada. &lt;b&gt;O Darksend será desactivado.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se deseja usar o Darksend, por favor desseleccione primeiro todas as entradas não anonimizadas e em seguida volte a marcar a opção Darksend.</translation>
+        <translation>Entrada não anonimizada seleccionada. &lt;b&gt;O Darksend será desactivado.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se deseja usar o Darksend, por favor desseleccione primeiro todash as entradash não anonimizadash e em seguida volte a marcar a opção Darksend.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -814,7 +814,7 @@ Endereço: %4
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transacções com prioridade mais alta tem uma maior probabilidade de ser incluídas num bloco.</translation>
+        <translation>Transacções com prioridade mais alta tem uma maior probabilidade de ser incluídash num bloco.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
@@ -860,11 +860,11 @@ Endereço: %4
         <translation>Por favor seleccione um nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DAS</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
         <translation>Usar 2 masternodes distintos para misturar os fundos até 1000DRK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DAS</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
         <translation>Usar 8 masternodes distintos para misturar os fundos até 1000DRK</translation>
     </message>
     <message>
@@ -872,16 +872,16 @@ Endereço: %4
         <translation>Usar 16 masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAS to anonymize 1000 DAS</source>
-        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 DAS para anonimizar 1000 DAS</translation>
+        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
+        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 DASH para anonimizar 1000 DASH</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAS to anonymize 1000 DAS</source>
-        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 DAS para anonimizar 1000 DAS</translation>
+        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
+        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 DASH para anonimizar 1000 DASH</translation>
     </message>
     <message>
-        <source>0.1 DAS per 1000 DAS you anonymize.</source>
-        <translation>0.1 DAS por cada 1000 DAS a anonimizar.</translation>
+        <source>0.1 DASH per 1000 DASH you anonymize.</source>
+        <translation>0.1 DASH por cada 1000 DASH a anonimizar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -892,16 +892,16 @@ Endereço: %4
         <translation>Configuração Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Das.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Dash.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Das.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Dash.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Das.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Dash.</translation>
     </message>
 </context>
 <context>
@@ -943,8 +943,8 @@ Endereço: %4
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Das address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço Das válido.</translation>
+        <source>The entered address "%1" is not a valid Dash address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço Dash válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Das Core</source>
-        <translation>Acerca do Das Core</translation>
+        <source>About Dash Core</source>
+        <translation>Acerca do Dash Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1034,7 +1034,7 @@ Endereço: %4
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Mostrar ecrã de boas vindas no arranque (omissão: 1)</translation>
+        <translation>Mostrar ecrã de boas vindash no arranque (omissão: 1)</translation>
     </message>
 </context>
 <context>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Das Core.</source>
-        <translation>Bem-vindo ao Das Core.</translation>
+        <source>Welcome to Dash Core.</source>
+        <translation>Bem-vindo ao Dash Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Das Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Das Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Dash Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Das Core will download and store a copy of the Das block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Das Core irá descarregar e guardar uma copia da cadeia de blocos Das. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Dash Core irá descarregar e guardar uma copia da cadeia de blocos Dash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1118,12 +1118,12 @@ Endereço: %4
         <translation>&amp;Geral</translation>
     </message>
     <message>
-        <source>Automatically start Das after logging in to the system.</source>
-        <translation>Executar automaticamente o cliente Das quando entrar no sistema.</translation>
+        <source>Automatically start Dash after logging in to the system.</source>
+        <translation>Executar automaticamente o cliente Dash quando entrar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Das on system login</source>
-        <translation>&amp;Iniciar o cliente Das ao entrar no sistema</translation>
+        <source>&amp;Start Dash on system login</source>
+        <translation>&amp;Iniciar o cliente Dash ao entrar no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1150,8 +1150,8 @@ Endereço: %4
         <translation>Esta quantia actua como um limite, a partir do qual o Darksend é desligado.</translation>
     </message>
     <message>
-        <source>Amount of Das to keep anonymized</source>
-        <translation>Quantia de Das a manter anonimizada</translation>
+        <source>Amount of Dash to keep anonymized</source>
+        <translation>Quantia de Dash a manter anonimizada</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1170,8 +1170,8 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the Das network through a SOCKS5 proxy.</source>
-        <translation>Efectuar a ligação à rede Das através de um proxy SOCKS5.</translation>
+        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <translation>Efectuar a ligação à rede Dash através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1183,7 +1183,7 @@ Endereço: %4
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Esta opção determina o número de masternodes pelos quais uma entrada será anonimizada. &lt;br/&gt; Mais rondas de anonimização fornecem um maior grau de privacidade, mas também tem um custo mais elevado em taxas.</translation>
+        <translation>Esta opção determina o número de masternodes pelos quais uma entrada será anonimizada. &lt;br/&gt; Mais rondash de anonimização fornecem um maior grau de privacidade, mas também tem um custo mais elevado em taxas.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1202,8 +1202,8 @@ Endereço: %4
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically open the Das client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Das no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
+        <source>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Dash no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1254,14 +1254,14 @@ Endereço: %4
         <translation>&amp;Linguagem do interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Das.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dash.</source>
         <translation>A linguagem do interface pode ser definida aqui. Esta definição terá efeito depois de reiniciar a aplicação.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/dash/</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1273,7 +1273,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade subdivisão por omissão para mostrar na interface e no envio de moedas.</translation>
+        <translation>Escolha a unidade subdivisão por omissão para mostrar na interface e no envio de moedash.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1293,7 +1293,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reiniciar todas as opções do cliente para os valores por omissão.</translation>
+        <translation>Reiniciar todash as opções do cliente para os valores por omissão.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -1317,7 +1317,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Confirme reinicialização das opções</translation>
+        <translation>Confirme reinicialização dash opções</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -1343,8 +1343,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Das network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Das assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Dash assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1360,7 +1360,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Total de transacções que ainda não foram confirmadas e não contam para o saldo disponível</translation>
+        <translation>Total de transacções que ainda não foram confirmadash e não contam para o saldo disponível</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1376,7 +1376,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Transações não confirmadas para endereços somente de visualização</translation>
+        <translation>Transações não confirmadash para endereços somente de visualização</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
@@ -1427,8 +1427,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Quantia e Voltas:</translation>
     </message>
     <message>
-        <source>0 DAS / 0 Rounds</source>
-        <translation>0 DAS / 0 Voltas</translation>
+        <source>0 DASH / 0 Rounds</source>
+        <translation>0 DASH / 0 Voltas</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1452,7 +1452,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>As denominações que foram submetidas para o Masternode.&lt;br&gt;Para misturar, outros utilizadores terão que submeter denominações iguais.</translation>
+        <translation>As denominações que foram submetidash para o Masternode.&lt;br&gt;Para misturar, outros utilizadores terão que submeter denominações iguais.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
@@ -1500,7 +1500,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Número insuficiente de entradas para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br/&gt;a anonimizar &lt;span style='color:red;'&gt;%2&lt;/span&gt; em alternativa</translation>
+        <translation>Número insuficiente de entradash para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br/&gt;a anonimizar &lt;span style='color:red;'&gt;%2&lt;/span&gt; em alternativa</translation>
     </message>
     <message>
         <source>Overall progress</source>
@@ -1516,11 +1516,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Entradas denominadas tem %5 de %n volta em média</numerusform><numerusform>Entradas denominadas tem %5 de %n voltas em média</numerusform></translation>
+        <translation><numerusform>Entradash denominadash tem %5 de %n volta em média</numerusform><numerusform>Entradash denominadash tem %5 de %n voltas em média</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Encontradas entradas suficientes para anonimizar %1</translation>
+        <translation>Encontradash entradash suficientes para anonimizar %1</translation>
     </message>
     <message>
         <source>Mixed</source>
@@ -1564,8 +1564,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Erro na solicitação de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
-        <translation>Não é possível iniciar o das: click-to-pay handler</translation>
+        <source>Cannot start dash: click-to-pay handler</source>
+        <translation>Não é possível iniciar o dash: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1584,8 +1584,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Das address or malformed URI parameters.</source>
-        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço Das inválido ou parâmetros do URI incorrectos.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço Dash inválido ou parâmetros do URI incorrectos.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1609,7 +1609,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Solicitações de pagamento não verificadas para scripts de pagamento personalizados não são suportadas.</translation>
+        <translation>Solicitações de pagamento não verificadash para scripts de pagamento personalizados não são suportadash.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1670,8 +1670,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Das address (e.g. %1)</source>
-        <translation>Insira um endereço Das (ex. %1)</translation>
+        <source>Enter a Dash address (e.g. %1)</source>
+        <translation>Insira um endereço Dash (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1760,8 +1760,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <source>Open the Das debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o ficheiro de registo de depuração Das a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
+        <source>Open the Dash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de depuração Dash a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1929,7 +1929,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Tenta recuperar as chaves privadas a partir de um ficheiro wallet.dat corrompido.</translation>
+        <translation>-salvagewallet: Tenta recuperar as chaves privadash a partir de um ficheiro wallet.dat corrompido.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
@@ -1968,8 +1968,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Das RPC console.</source>
-        <translation>Bem-vindo à consola RPC Das</translation>
+        <source>Welcome to the Dash RPC console.</source>
+        <translation>Bem-vindo à consola RPC Dash</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Das network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Das.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Dash.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Das network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Das.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Dash.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2088,7 +2088,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Remover as entradas seleccionadas da lista</translation>
+        <translation>Remover as entradash seleccionadash da lista</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -2197,7 +2197,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Moedas</translation>
+        <translation>Enviar Moedash</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2205,11 +2205,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Entradas...</translation>
+        <translation>Entradash...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>seleccionadas automáticamente</translation>
+        <translation>seleccionadash automáticamente</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -2421,7 +2421,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>são adicionadas como taxa de transacção</translation>
+        <translation>são adicionadash como taxa de transacção</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
@@ -2429,7 +2429,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar envio de moedas</translation>
+        <translation>Confirmar envio de moedash</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 de %2 entradas mostradas)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 de %2 entradash mostradash)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2469,19 +2469,19 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>A transacção foi rejeitada! Isto pode acontecer se algumas das moedas da sua carteira tiverem sido gastas, tal como se usou uma copia do ficheiro wallet.dat e moedas tiverem sido gastas nessa cópia mas não aqui.</translation>
+        <translation>A transacção foi rejeitada! Isto pode acontecer se algumas dash moedash da sua carteira tiverem sido gastas, tal como se usou uma copia do ficheiro wallet.dat e moedash tiverem sido gastas nessa cópia mas não aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Erro: A carteira foi somente desbloqueada para anonimização de moedas.</translation>
+        <translation>Erro: A carteira foi somente desbloqueada para anonimização de moedash.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Das address</source>
-        <translation>Aviso: Endereço Das inválido</translation>
+        <source>Warning: Invalid Dash address</source>
+        <translation>Aviso: Endereço Dash inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2503,8 +2503,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The Das address to send the payment to</source>
-        <translation>O endereço Das para onde enviar o pagamento</translation>
+        <source>The Dash address to send the payment to</source>
+        <translation>O endereço Dash para onde enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Das network.</source>
-        <translation>Mensagem que foi anexada ao das: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Das.</translation>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <translation>Mensagem que foi anexada ao dash: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Dash.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/projects/p/das/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Das Core is shutting down...</source>
-        <translation>O Das Core está a desligar...</translation>
+        <source>Dash Core is shutting down...</source>
+        <translation>O Dash Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2590,11 +2590,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
+        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadash com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Das address to sign the message with</source>
-        <translation>Endereço Das com o qual deseja assinar a mensagem</translation>
+        <source>The Dash address to sign the message with</source>
+        <translation>Endereço Dash com o qual deseja assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2625,8 +2625,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Das address</source>
-        <translation>Assinar a mensagem para provar que é o proprietário deste endereço Das</translation>
+        <source>Sign the message to prove you own this Dash address</source>
+        <translation>Assinar a mensagem para provar que é o proprietário deste endereço Dash</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2649,12 +2649,12 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia exactamente as quebras de linha, espaços, tabulações, etc) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Das address the message was signed with</source>
-        <translation>Endereço Das com o qual a mensagem foi assinada</translation>
+        <source>The Dash address the message was signed with</source>
+        <translation>Endereço Dash com o qual a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Das address</source>
-        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço Das especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço Dash especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/projects/p/das/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Das Core developers</source>
-        <translation>Os programadores Das Core</translation>
+        <source>The Dash Core developers</source>
+        <translation>Os programadores Dash Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2903,7 +2903,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>As moedas geradas tem que amadurecer %1 blocos antes de poderem ser gastas. Quando gerou este bloco, este foi propagado para a rede de modo a ser incluído na cadeia de blocos. Se não foi incluído na cadeia, o seu estado será alterado para "rejeitado" e não será possível gastar as moedas. Isto pode acontecer ocasionalmente quando outro nó gera um bloco a poucos segundos do seu.</translation>
+        <translation>As moedash geradash tem que amadurecer %1 blocos antes de poderem ser gastas. Quando gerou este bloco, este foi propagado para a rede de modo a ser incluído na cadeia de blocos. Se não foi incluído na cadeia, o seu estado será alterado para "rejeitado" e não será possível gastar as moedash. Isto pode acontecer ocasionalmente quando outro nó gera um bloco a poucos segundos do seu.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2915,7 +2915,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Entradas</translation>
+        <translation>Entradash</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2973,7 +2973,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>A confirmar (%1 de %2 confirmações recomendadas)</translation>
+        <translation>A confirmar (%1 de %2 confirmações recomendadash)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -3029,7 +3029,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fazer Entradas Colaterais</translation>
+        <translation>Darksend Fazer Entradash Colaterais</translation>
     </message>
     <message>
         <source>Darksend Create Denominations</source>
@@ -3076,7 +3076,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Todas</translation>
+        <translation>Todash</translation>
     </message>
     <message>
         <source>Today</source>
@@ -3120,7 +3120,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fazer Entradas Colaterais</translation>
+        <translation>Darksend Fazer Entradash Colaterais</translation>
     </message>
     <message>
         <source>Darksend Create Denominations</source>
@@ -3243,7 +3243,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unidade das quantias. Clique para seleccionar outra unidade.</translation>
+        <translation>Unidade dash quantias. Clique para seleccionar outra unidade.</translation>
     </message>
 </context>
 <context>
@@ -3257,11 +3257,11 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Moedas</translation>
+        <translation>Enviar Moedash</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DAS.</source>
-        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitadas a %1 DAS.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
+        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitadash a %1 DASH.</translation>
     </message>
 </context>
 <context>
@@ -3304,18 +3304,18 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>dash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Das Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Das Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Dash Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>O Darksend usa denominações exactas para enviar fundos, pode necessitar simplesmente de anonimizar mais algumas moedas.</translation>
+        <translation>O Darksend usa denominações exactas para enviar fundos, pode necessitar simplesmente de anonimizar mais algumas moedash.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3343,7 +3343,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>O InstantX necessita de entradas com pelo menos 6 confirmações, pode ser necessário aguardar mais uns minutos e tentar de novo.</translation>
+        <translation>O InstantX necessita de entradash com pelo menos 6 confirmações, pode ser necessário aguardar mais uns minutos e tentar de novo.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
@@ -3366,15 +3366,15 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Das Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Das Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Dash Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Não foi possível localizar fundos Darksend denominados suficientes para esta transacção.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DAS.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
         <translation>Não foi possível localizar fundos Darksend não denominados suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>
@@ -3391,7 +3391,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Aviso: erro ao carregar wallet.dat! Todas as chaves estão correctas mas os dados das transacções ou as entradas do livro de endereços podem estar ausentes ou incorrectas.</translation>
+        <translation>Aviso: erro ao carregar wallet.dat! Todash as chaves estão correctas mas os dados dash transacções ou as entradash do livro de endereços podem estar ausentes ou incorrectas.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
@@ -3427,7 +3427,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Tentar recuperar as chaves privadas a partir de um ficheiro wallet.dat corrompido</translation>
+        <translation>Tentar recuperar as chaves privadash a partir de um ficheiro wallet.dat corrompido</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3435,7 +3435,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Não é possível denominar: não existem mais entradas compatíveis.</translation>
+        <translation>Não é possível denominar: não existem mais entradash compatíveis.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3487,7 +3487,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Não carregar a carteira e desabilitar as chamadas RPC</translation>
+        <translation>Não carregar a carteira e desabilitar as chamadash RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -3499,7 +3499,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Entradas completas.</translation>
+        <translation>Entradash completas.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -3547,7 +3547,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Erro: Já tem entradas pendentes no conjunto Darksend</translation>
+        <translation>Erro: Já tem entradash pendentes no conjunto Darksend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3563,7 +3563,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = mantem meta dados das transacções ex. dono da conta e informação das solicitações de pagamento, 2 = elimina os meta dados das transacções)</translation>
+        <translation>(1 = mantem meta dados dash transacções ex. dono da conta e informação dash solicitações de pagamento, 2 = elimina os meta dados dash transacções)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
@@ -3579,19 +3579,19 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Apaga todas as transacções da carteira e só recupera essas partes da cadeia de blocos com -rescan no arranque</translation>
+        <translation>Apaga todash as transacções da carteira e só recupera essas partes da cadeia de blocos com -rescan no arranque</translation>
     </message>
     <message>
         <source>Enable instantx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Activar instantx, mostrar confirmações para transacções bloqueadas (bool, default: %s)</translation>
+        <translation>Activar instantx, mostrar confirmações para transacções bloqueadash (bool, default: %s)</translation>
     </message>
     <message>
         <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
         <translation>Activar o uso de darksend automatizado para os fundos guardados nesta carteira (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Fees (in DAS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em DAS/Kb) inferiores a esta serão consideradas zero para retransmissão (default: %s)</translation>
+        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em DASH/Kb) inferiores a esta serão consideradash zero para retransmissão (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3599,7 +3599,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Foram encontradas saídas denominadas não confirmadas, a aguardar pela confirmação para prosseguir.</translation>
+        <translation>Foram encontradash saídash denominadash não confirmadash, a aguardar pela confirmação para prosseguir.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3619,7 +3619,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Providenciar liquidez para o Darksend misturando moedas continuamente com baixa frequência (0-100, omissão: %u, 1=muito frequente taxas elevadas, 100=pouco frequente, taxas reduzidas)</translation>
+        <translation>Providenciar liquidez para o Darksend misturando moedash continuamente com baixa frequência (0-100, omissão: %u, 1=muito frequente taxas elevadash, 100=pouco frequente, taxas reduzidash)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
@@ -3638,7 +3638,7 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software criptográfico escrito por Eric Young e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DAS.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
         <translation>Não foi possível localizar fundos suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Das Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Das Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Dash Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(9399 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
-        <translation>Copyright (C) 2014-%i Das Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Copyright (C) 2014-%i Dash Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Das Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Das Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Dash Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3744,8 +3744,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Erro: Argument não suportado -tor encontrado, utilize -onion</translation>
     </message>
     <message>
-        <source>Fee (in DAS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxas (em DAS/Kb) a adicionar às transacções que envia (omissão: %s)</translation>
+        <source>Fee (in DASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxas (em DASH/Kb) a adicionar às transacções que envia (omissão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3765,7 +3765,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Gerar moedas (default: %u)</translation>
+        <translation>Gerar moedash (default: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Das Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Das Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Dash Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3997,11 +3997,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Apresentadas as seguintes entradas ao masternode:  %u / %d </translation>
+        <translation>Apresentadash as seguintes entradash ao masternode:  %u / %d </translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Apresentado ao masternode, esperando por mais entradas ( %u / %d ) %s</translation>
+        <translation>Apresentado ao masternode, esperando por mais entradash ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Das Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie Das Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie Dash Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4104,8 +4104,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Chave KeePassHttp para usar na comunicação cifrada AES com o KeePass</translation>
     </message>
     <message>
-        <source>Keep N DAS anonymized (default: %u)</source>
-        <translation>Manter N DAS anonimizados (default: %u)</translation>
+        <source>Keep N DASH anonymized (default: %u)</source>
+        <translation>Manter N DASH anonimizados (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4157,7 +4157,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Não foram encontradas denominações correspondentes para misturar.</translation>
+        <translation>Não foram encontradash denominações correspondentes para misturar.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -4185,7 +4185,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à Das Wiki)</translation>
+        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à Dash Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -4253,7 +4253,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Mostrar todas as opções de depuração (uso: --help -help-debug)</translation>
+        <translation>Mostrar todash as opções de depuração (uso: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -4305,7 +4305,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>As taxas da transacção são demasiado elevadas.</translation>
+        <translation>As taxas da transacção são demasiado elevadash.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
@@ -4401,7 +4401,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Suas entradas adicionadas com sucesso.</translation>
+        <translation>Suas entradash adicionadash com sucesso.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
@@ -4409,7 +4409,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>A apagar todas as transacções da carteira...</translation>
+        <translation>A apagar todash as transacções da carteira...</translation>
     </message>
     <message>
         <source>on startup</source>

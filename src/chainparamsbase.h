@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between das-cli and dasd)
- * of a given instance of the Das system.
+ * CBaseChainParams defines the base parameters (shared between dash-cli and dashd)
+ * of a given instance of the Dash system.
  */
 class CBaseChainParams
 {

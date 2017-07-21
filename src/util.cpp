@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Dash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/dash-config.h"
 #endif
 
 #include "util.h"
@@ -102,7 +102,7 @@ namespace boost {
 
 using namespace std;
 
-//Das only features
+//Dash only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
@@ -110,7 +110,7 @@ bool fLiteMode = false;
 bool fEnableInstantSend = true;
 int nInstantSendDepth = 5;
 int nPrivateSendRounds = 2;
-int nAnonymizeDasAmount = 1000;
+int nAnonymizeDashAmount = 1000;
 int nLiquidityProvider = 0;
 /**
     nWalletBackups:
@@ -129,8 +129,8 @@ bool fPrivateSendMultiSession = false;
 std::vector<CAmount> darkSendDenominations;
 string strBudgetMode = "";
 
-const char * const BITCOIN_CONF_FILENAME = "das.conf";
-const char * const BITCOIN_PID_FILENAME = "dasd.pid";
+const char * const BITCOIN_CONF_FILENAME = "dash.conf";
+const char * const BITCOIN_PID_FILENAME = "dashd.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -284,8 +284,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "das" is a composite category enabling all Das-related debug output
-            if(ptrCategory->count(string("das"))) {
+            // "dash" is a composite category enabling all Dash-related debug output
+            if(ptrCategory->count(string("dash"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));
                 ptrCategory->insert(string("masternode"));
@@ -508,7 +508,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "das";
+    const char* pszModule = "dash";
 #endif
     if (pex)
         return strprintf(
@@ -528,13 +528,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Das
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Das
-    // Mac: ~/Library/Application Support/Das
-    // Unix: ~/.das
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Dash
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Dash
+    // Mac: ~/Library/Application Support/Dash
+    // Unix: ~/.dash
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Das";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Dash";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -546,10 +546,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Das";
+    return pathRet / "Dash";
 #else
     // Unix
-    return pathRet / ".das";
+    return pathRet / ".dash";
 #endif
 #endif
 }
@@ -643,7 +643,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()){
-        // Create empty das.conf if it does not excist
+        // Create empty dash.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -655,7 +655,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override das.conf
+        // Don't overwrite existing settings so command line settings override dash.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

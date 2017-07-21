@@ -1,6 +1,6 @@
 [Protocol]
-exec=das-qt '%u'
-protocol=das
+exec=dash-qt '%u'
+protocol=dash
 input=none
 output=none
 helper=true

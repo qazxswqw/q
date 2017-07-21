@@ -48,7 +48,7 @@ public:
         SpendZeroConfChange,    // bool
         ShowAdvancedPSUI,       // bool
         PrivateSendRounds,      // int
-        AnonymizeDasAmount,    // int
+        AnonymizeDashAmount,    // int
         ShowMasternodesTab,     // bool
         PrivateSendMultiSession,// bool
         Listen,                 // bool
@@ -97,7 +97,7 @@ private:
 Q_SIGNALS:
     void displayUnitChanged(int unit);
     void privateSendRoundsChanged();
-    void anonymizeDasAmountChanged();
+    void anonymizeDashAmountChanged();
     void advancedPSUIChanged(bool);
     void coinControlFeaturesChanged(bool);
 };
