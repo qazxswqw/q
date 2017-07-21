@@ -103,7 +103,7 @@ public Q_SLOTS:
     /** Change encrypted wallet passphrase */
     void changePassphrase();
     /** Ask for passphrase to unlock wallet temporarily */
-    void unlockWallet(bool fAnonymizeOnly=false);
+    void unlockWallet();
     /** Lock wallet */
     void lockWallet();
 
@@ -118,7 +118,7 @@ public Q_SLOTS:
     /** Show progress dialog e.g. for rescan */
     void showProgress(const QString &title, int nProgress);
 
-    /** Update selected DASH amount from transactionview */
+    /** Update selected DAS amount from transactionview */
     void trxAmount(QString amount);
 
 Q_SIGNALS:

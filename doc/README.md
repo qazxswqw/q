@@ -1,37 +1,43 @@
-Dash Core 0.12.1
+Das Core 0.12.1
 =====================
 
-This is the official reference wallet for Dash digital currency and comprises the backbone of the Dash peer-to-peer network. You can [download Dash Core](https://www.dash.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Das digital currency and comprises the backbone of the Das peer-to-peer network. You can [download Das Core](https://www.das.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Dash on your native platform.
+The following are some helpful notes on how to run Das on your native platform.
 
 ### Unix
 
+You need the Qt4 run-time libraries to run Das-Qt. On Debian or Ubuntu:
+
+	sudo apt-get install libqtgui4
+
 Unpack the files into a directory and run:
 
-- `bin/bitcoin-qt` (GUI) or
-- `bin/bitcoind` (headless)
+- bin/32/das-qt (GUI, 32-bit) or bin/32/dasd (headless, 32-bit)
+- bin/64/das-qt (GUI, 64-bit) or bin/64/dasd (headless, 64-bit)
+
+
 
 ### Windows
 
-Unpack the files into a directory, and then run dash-qt.exe.
+Unpack the files into a directory, and then run das-qt.exe.
 
 ### OS X
 
-Drag Dash-Qt to your applications folder, and then run Dash-Qt.
+Drag Das-Core to your applications folder, and then run Das-Core.
 
 ### Need Help?
 
-* See the [Dash documentation](https://dashpay.atlassian.net/wiki/display/DOC)
+* See the [Das documentation](https://daspay.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#dashpay](http://webchat.freenode.net?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dashpay).
-* Ask for help on the [DashTalk](https://dashtalk.org/) forums.
+* Ask for help on [#daspay](http://webchat.freenode.net?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=daspay).
+* Ask for help on the [DasTalk](https://dastalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Dash Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Das on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +47,7 @@ The following are developer notes on how to build Dash Core on your native platf
 
 Development
 ---------------------
-The Dash Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Das repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +63,8 @@ The Dash Core repo's [root README](/README.md) contains relevant information on 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [DashTalk](https://dashtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dashpay](http://webchat.freenode.net/?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dashpay).
+* Discuss on the [DasTalk](https://dastalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#daspay](http://webchat.freenode.net/?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=daspay).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2016 The Das Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -169,17 +169,15 @@ void Intro::pickDataDirectory()
     if(!GetArg("-datadir", "").empty())
         return;
     /* 1) Default data directory for operating system */
-    QString dataDirDefaultCurrent = getDefaultDataDirectory();
+    QString dataDir = getDefaultDataDirectory();
     /* 2) Allow QSettings to override default dir */
-    QString dataDir = settings.value("strDataDir", dataDirDefaultCurrent).toString();
-    /* 3) Check to see if default datadir is the one we expect */
-    QString dataDirDefaultSettings = settings.value("strDataDirDefault").toString();
+    dataDir = settings.value("strDataDir", dataDir).toString();
 
-    if(!fs::exists(GUIUtil::qstringToBoostPath(dataDir)) || GetBoolArg("-choosedatadir", DEFAULT_CHOOSE_DATADIR) || dataDirDefaultCurrent != dataDirDefaultSettings)
+    if(!fs::exists(GUIUtil::qstringToBoostPath(dataDir)) || GetBoolArg("-choosedatadir", DEFAULT_CHOOSE_DATADIR))
     {
-        /* Let the user choose one */
+        /* If current default data directory does not exist, let the user choose one */
         Intro intro;
-        intro.setDataDirectory(dataDirDefaultCurrent);
+        intro.setDataDirectory(dataDir);
         intro.setWindowIcon(QIcon(":icons/bitcoin"));
 
         while(true)
@@ -187,27 +185,26 @@ void Intro::pickDataDirectory()
             if(!intro.exec())
             {
                 /* Cancel clicked */
-                exit(EXIT_SUCCESS);
+                exit(0);
             }
             dataDir = intro.getDataDirectory();
             try {
                 TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch (const fs::filesystem_error&) {
-                QMessageBox::critical(0, tr("Dash Core"),
+                QMessageBox::critical(0, tr("Das Core"),
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 /* fall through, back to choosing screen */
             }
         }
 
         settings.setValue("strDataDir", dataDir);
-        settings.setValue("strDataDirDefault", dataDirDefaultCurrent);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the dash.conf file in the default data directory
-     * (to be consistent with dashd behavior)
+     * override -datadir in the das.conf file in the default data directory
+     * (to be consistent with dasd behavior)
      */
-    if(dataDir != dataDirDefaultCurrent)
+    if(dataDir != getDefaultDataDirectory())
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting
 }
 

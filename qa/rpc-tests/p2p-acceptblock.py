@@ -109,7 +109,7 @@ class TestNode(NodeConnCB):
 class AcceptBlockTest(BitcoinTestFramework):
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("DASHD", "dashd"),
+                          default=os.getenv("DASD", "dasd"),
                           help="bitcoind binary to test")
 
     def setup_chain(self):
@@ -150,7 +150,7 @@ class AcceptBlockTest(BitcoinTestFramework):
         # 2. Send one block that builds on each tip.
         # This should be accepted.
         blocks_h2 = []  # the height 2 blocks on each node's chain
-        block_time = int(time.time()) + 1
+        block_time = time.time() + 1
         for i in xrange(2):
             blocks_h2.append(create_block(tips[i], create_coinbase(2), block_time))
             blocks_h2[i].solve()

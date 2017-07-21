@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2016 The Das Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/das-config.h"
 #endif
 
 #include "compat.h"
@@ -30,26 +30,28 @@
 #include <boost/signals2/signal.hpp>
 #include <boost/thread/exceptions.hpp>
 
-// Debugging macros
-
-// Uncomment the following line to enable debugging messages
-// or enable on a per file basis prior to inclusion of util.h
-//#define ENABLE_DASH_DEBUG
-#ifdef ENABLE_DASH_DEBUG
-#define DBG( x ) x
-#else
-#define DBG( x ) 
-#endif
-
-//Dash only features
+//Das only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
+extern bool fEnableInstantSend;
+extern int nInstantSendDepth;
+extern int nPrivateSendRounds;
+extern int nAnonymizeDasAmount;
+extern int nLiquidityProvider;
 extern int nWalletBackups;
+extern bool fEnablePrivateSend;
+extern bool fPrivateSendMultiSession;
+extern int64_t enforceMasternodePaymentsTime;
+extern std::string strMasterNodeAddr;
+extern int keysLoaded;
+extern bool fSucessfullyLoaded;
+extern std::vector<CAmount> darkSendDenominations;
+extern std::string strBudgetMode;
 
-static const bool DEFAULT_LOGTIMEMICROS  = false;
-static const bool DEFAULT_LOGIPS         = false;
-static const bool DEFAULT_LOGTIMESTAMPS  = true;
+static const bool DEFAULT_LOGTIMEMICROS = false;
+static const bool DEFAULT_LOGIPS        = false;
+static const bool DEFAULT_LOGTIMESTAMPS = true;
 static const bool DEFAULT_LOGTHREADNAMES = false;
 
 /** Signals for translation. */
@@ -248,7 +250,7 @@ std::string GetThreadName();
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("dash-%s", name);
+    std::string s = strprintf("das-%s", name);
     RenameThread(s.c_str());
     try
     {

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2016 The Das Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CDashNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CDasNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -79,7 +79,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  DASH NETWORK (ROOT)
+ *  DAS NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -117,7 +117,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.dash.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.das.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CDashNetwork : public CGovernanceObject
+class CDasNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CDashNetwork(UniValue objIn)
+    CDasNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -169,14 +169,14 @@ public:
         READWRITE(LIMITED_STRING(strURL, 64));
         READWRITE(nTime);
         READWRITE(vecSig);
-        READWRITE(nCollateralHash);
+        READWRITE(nFeeTXHash);
     }
 
 };
 
-// // can be under: DashNetwork
+// // can be under: DasNetwork
 // //   -- signature requirements : Key1(User)
-// class CDashNetworkVariable : public CGovernanceObject
+// class CDasNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -207,7 +207,7 @@ public:
 //         READWRITE(LIMITED_STRING(strURL, 64));
 //         READWRITE(nTime);
 //         READWRITE(vecSig);
-//         READWRITE(nCollateralHash);
+//         READWRITE(nFeeTXHash);
 //     }
 
 // };
@@ -260,7 +260,7 @@ public:
 //         READWRITE(LIMITED_STRING(strURL, 64));
 //         READWRITE(nTime);
 //         READWRITE(vecSig);
-//         READWRITE(nCollateralHash);
+//         READWRITE(nFeeTXHash);
 //     }
 
 // };
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == DashNetwork);
+//     //     return (IsType() == DasNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)
@@ -329,7 +329,7 @@ public:
 //         READWRITE(LIMITED_STRING(strURL, 64));
 //         READWRITE(nTime);
 //         READWRITE(vecSig);
-//         READWRITE(nCollateralHash);
+//         READWRITE(nFeeTXHash);
 //     }
 // };
 
@@ -394,7 +394,7 @@ public:
 //         READWRITE(LIMITED_STRING(strURL, 64));
 //         READWRITE(nTime);
 //         READWRITE(vecSig);
-//         READWRITE(nCollateralHash);
+//         READWRITE(nFeeTXHash);
 //     }
 
 // };
